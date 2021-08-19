@@ -10,7 +10,7 @@ $servername= "localhost";   //agar koe specified server use kr rhe hote hai
 $username="root";
 $password="";
 
-//creating a connection
+//Creating a connection
 $conn = mysqli_connect($servername,$username,$password);
 if(!$conn){
     die("connection is failed".mysqli_connect_error());   //. It is used to print message and exit from the current php script.
